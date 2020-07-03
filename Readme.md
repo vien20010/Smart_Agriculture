@@ -1,4 +1,4 @@
-# DHT12_STM32
+# SMART_AGRICUTURE
 ## SOFTWARE
 - MDK - ARM V5 to complie and load hex file
 - Visual Studio Code to edit code
