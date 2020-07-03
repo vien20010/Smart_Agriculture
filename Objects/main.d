@@ -35,4 +35,5 @@
 .\objects\main.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h
 .\objects\main.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h
 .\objects\main.o: .\Mylib\I2C.h
+.\objects\main.o: .\Mylib\BH1750.h
 .\objects\main.o: .\Mylib\Systick.h

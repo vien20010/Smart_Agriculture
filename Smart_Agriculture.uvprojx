@@ -431,16 +431,6 @@
           <GroupName>Mylib</GroupName>
           <Files>
             <File>
-              <FileName>DHT12.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Mylib\DHT12.c</FilePath>
-            </File>
-            <File>
-              <FileName>DHT12.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Mylib\DHT12.h</FilePath>
-            </File>
-            <File>
               <FileName>Systick.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Mylib\Systick.c</FilePath>
@@ -459,6 +449,16 @@
               <FileName>I2C.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\I2C.h</FilePath>
+            </File>
+            <File>
+              <FileName>BH1750.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\BH1750.c</FilePath>
+            </File>
+            <File>
+              <FileName>BH1750.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\BH1750.h</FilePath>
             </File>
           </Files>
         </Group>

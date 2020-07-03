@@ -5,9 +5,9 @@
 ".\objects\stm32f4xx_gpio.o"
 ".\objects\stm32f4xx_rcc.o"
 ".\objects\stm32f4xx_i2c.o"
-".\objects\dht12.o"
 ".\objects\systick.o"
 ".\objects\i2c.o"
+".\objects\bh1750.o"
 ".\objects\startup_stm32f40_41xxx.o"
 --strict --scatter ".\Objects\Smart_Agriculture.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
