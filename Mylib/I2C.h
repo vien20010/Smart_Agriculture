@@ -23,8 +23,7 @@ LV_Embedded
 #define I2C_DUTYCYCLE I2C_DutyCycle_2
 #endif /* FAST_I2C_MODE */
 
-/* Define Slave Address */
-#define SLAVE_ADDRESS 0xB8
+/* Define Slave Address in Header File of this Slave*/
 
 //define I2Cx Communication
 #define I2Cxx                    I2C1

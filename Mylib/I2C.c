@@ -1,6 +1,6 @@
 /* 
-June 18,2020
-LV_Embedded
+*June 18,2020
+*LV_Embedded
  */
 #include "I2C.h"
 
@@ -61,7 +61,16 @@ void I2C_Config(void)
     I2C_Cmd(I2Cxx, ENABLE);
 }
 
-
+/**
+ *
+ * @param I2Cx - I2C peripheral module number
+ * @param I2C_Addr - I2C SLAVE address in network
+ * @param addr - slave register address
+ * @param buf  - pointer to receiver buffer
+ * @param num  - number of bytes to receive
+ * 
+ * 
+ * */
 uint8_t I2C_Read(I2C_TypeDef *I2Cx, uint8_t I2C_Addr, uint8_t addr, uint8_t *buf, uint16_t num)
 {
     uint8_t i=0;
