@@ -7,8 +7,9 @@ LV_Embedded
 
 #include "../Src/stm32f4xx.h"
 
-void TIM_Config();
+void TIM6_Config();
 void Interrupt_Config();
+void Timer6Delay_us(uint32_t us);
 
 
 #endif
