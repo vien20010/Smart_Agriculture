@@ -37,3 +37,6 @@
 .\objects\main.o: .\Mylib\I2C.h
 .\objects\main.o: .\Mylib\BH1750.h
 .\objects\main.o: .\Mylib\Systick.h
+.\objects\main.o: .\Mylib\DS18B20.h
+.\objects\main.o: .\Mylib\Timerx.h
+.\objects\main.o: .\Mylib\GPIO.h

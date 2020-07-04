@@ -1,11 +1,11 @@
 .\objects\timerx.o: Mylib\Timerx.c
 .\objects\timerx.o: Mylib\Timerx.h
 .\objects\timerx.o: Mylib\../Src/stm32f4xx.h
-.\objects\timerx.o: ..\..\..\Design_Project\Document\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Libraries\CMSIS\Include\core_cm4.h
+.\objects\timerx.o: .\STM32F4xx_StdPeriph_Driver\Include\core_cm4.h
 .\objects\timerx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\timerx.o: ..\..\..\Design_Project\Document\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Libraries\CMSIS\Include\core_cmInstr.h
-.\objects\timerx.o: ..\..\..\Design_Project\Document\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Libraries\CMSIS\Include\core_cmFunc.h
-.\objects\timerx.o: ..\..\..\Design_Project\Document\STM32F4xx_DSP_StdPeriph_Lib_V1.8.0\Libraries\CMSIS\Include\core_cmSimd.h
+.\objects\timerx.o: .\STM32F4xx_StdPeriph_Driver\Include\core_cmInstr.h
+.\objects\timerx.o: .\STM32F4xx_StdPeriph_Driver\Include\core_cmFunc.h
+.\objects\timerx.o: .\STM32F4xx_StdPeriph_Driver\Include\core_cmSimd.h
 .\objects\timerx.o: Mylib\../Src/system_stm32f4xx.h
 .\objects\timerx.o: Mylib\../Src/stm32f4xx_conf.h
 .\objects\timerx.o: .\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h
