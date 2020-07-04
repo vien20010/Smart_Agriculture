@@ -6,7 +6,7 @@
 uint16_t lux;
 int main()
 {    
-		Systick_Configuration();
+	Systick_Configuration();
     I2C_Config();
     while (1)
     {
