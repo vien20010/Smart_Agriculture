@@ -2,6 +2,9 @@
 * July 03, 2020
 * LV_Embedded
  */
+#ifndef BH1750_H
+#define BH1750_H
+
 #include "../Src/stm32f4xx.h"
 #include "I2C.h"
 /* To use ADDRESS BH1750_ADDRESS_H 0xB8, 
@@ -36,3 +39,5 @@ the Pin ADDR in BH1750 must be set 'H' (ADDR >=0.7VCC) */
 #define OneTime_L_resolution_Mode  0x23//As well as address value
 
 uint16_t GetLightIntensity(void);
+
+#endif
