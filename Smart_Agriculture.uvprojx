@@ -425,6 +425,16 @@
               <FileType>1</FileType>
               <FilePath>.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>misc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\STM32F4xx_StdPeriph_Driver\src\misc.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -459,6 +469,36 @@
               <FileName>BH1750.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\BH1750.h</FilePath>
+            </File>
+            <File>
+              <FileName>DS18B20.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\DS18B20.c</FilePath>
+            </File>
+            <File>
+              <FileName>DS18B20.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\DS18B20.h</FilePath>
+            </File>
+            <File>
+              <FileName>Timerx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\Timerx.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timerx.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\Timerx.h</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\GPIO.c</FilePath>
+            </File>
+            <File>
+              <FileName>GPIO.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\GPIO.h</FilePath>
             </File>
           </Files>
         </Group>

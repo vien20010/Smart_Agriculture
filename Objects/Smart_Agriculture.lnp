@@ -6,6 +6,7 @@
 ".\objects\stm32f4xx_rcc.o"
 ".\objects\stm32f4xx_i2c.o"
 ".\objects\stm32f4xx_tim.o"
+".\objects\misc.o"
 ".\objects\systick.o"
 ".\objects\i2c.o"
 ".\objects\bh1750.o"
