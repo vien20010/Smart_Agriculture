@@ -62,6 +62,7 @@ void I2C_Config(void)
 }
 
 /**
+ * @brief Function implements receive num byte to buf from DHT12
  *
  * @param I2Cx - I2C peripheral module number
  * @param I2C_Addr - I2C SLAVE address in network
