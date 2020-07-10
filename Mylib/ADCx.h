@@ -22,4 +22,7 @@
 #define DMA_STREAMx              DMA2_Stream0
 #define ADCx_DR_ADDRESS          ((uint32_t)0x4001224C)
 
+void ADC_Config(void);
+void DMA_Config(void);
+
 #endif
