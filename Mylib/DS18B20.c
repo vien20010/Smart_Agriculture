@@ -7,8 +7,13 @@
 /**
  * @brief - Start DS18B20 to Transmit data
  * @param DS18B20_Star - Initialization Timing for DS18B20
- * @retval 
+ * @retval - Response value.
  **/
+
+/* According to the datasheet, the initialization is done by 
+pulling the data pin LOW for 480 us and than reading the pin 
+for the presence pulse sent by sensor. Here is the function for that */
+
 uint8_t DS18B20_Star(void)
 {
     uint8_t Response = 0;
@@ -29,10 +34,9 @@ uint8_t DS18B20_Star(void)
 }
 
 /** 
- *  
+ *  @brief - function wire data to sensor
  *  @param data - the data you want to write on sensor 
- *  @param DS18B20_Write - function wire data to sensor
- * 
+ *  @retval - None
  **/
 /* 
 There are two type of write time slot: "Write 1" and "Write 0"
