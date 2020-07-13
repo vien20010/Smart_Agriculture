@@ -40,3 +40,4 @@
 .\objects\main.o: .\Mylib\DS18B20.h
 .\objects\main.o: .\Mylib\Timerx.h
 .\objects\main.o: .\Mylib\GPIO.h
+.\objects\main.o: .\Mylib\ADCx.h

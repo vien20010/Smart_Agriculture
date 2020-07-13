@@ -55,13 +55,13 @@ void ADC_Config(void)
     ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_T1_CC1;
     ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;
     ADC_InitStructure.ADC_NbrOfConversion = 1;
-    ADC_Init(ADCx, &ADC_InitStructure);
+    ADC_Init(ADCxx, &ADC_InitStructure);
 
     /* ADC3 regular channel7 configuration **************************************/
-    ADC_RegularChannelConfig(ADCx, ADC_CHANNEL, 1, ADC_SampleTime_3Cycles);
+    ADC_RegularChannelConfig(ADCxx, ADC_CHANNEL, 1, ADC_SampleTime_3Cycles);
 
     /* Enable ADC3 */
-    ADC_Cmd(ADCx, ENABLE);
+    ADC_Cmd(ADCxx, ENABLE);
 }
 
 /**
@@ -79,7 +79,7 @@ void DMA_Config(void)
 {
     DMA_InitTypeDef DMA_InitStructure;
     /* Enable DMA clock */
-    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_DMA2, ENABLE);
+    RCC_AHB1PeriphClockCmd(DMA_CLK, ENABLE);
 
     /* DMA2 Stream0 channel2 configuration **************************************/
     DMA_InitStructure.DMA_Channel = DMA_CHANNELx;
@@ -101,8 +101,8 @@ void DMA_Config(void)
     DMA_Cmd(DMA_STREAMx, ENABLE);
 
     /* Enable DMA request after last transfer (Single-ADC mode) */
-    ADC_DMARequestAfterLastTransferCmd(ADCx, ENABLE);
+    ADC_DMARequestAfterLastTransferCmd(ADCxx, ENABLE);
 
     /* Enable ADC3 DMA */
-    ADC_DMACmd(ADCx, ENABLE);
+    ADC_DMACmd(ADCxx, ENABLE);
 }

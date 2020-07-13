@@ -435,6 +435,16 @@
               <FileType>1</FileType>
               <FilePath>.\STM32F4xx_StdPeriph_Driver\src\misc.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -499,6 +509,16 @@
               <FileName>GPIO.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Mylib\GPIO.h</FilePath>
+            </File>
+            <File>
+              <FileName>ADCx.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\ADCx.c</FilePath>
+            </File>
+            <File>
+              <FileName>ADCx.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\ADCx.h</FilePath>
             </File>
           </Files>
         </Group>

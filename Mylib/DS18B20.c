@@ -5,9 +5,9 @@
 
 #include "DS18B20.h"
 /**
- * 
+ * @brief - Start DS18B20 to Transmit data
  * @param DS18B20_Star - Initialization Timing for DS18B20
- *  
+ * @retval 
  **/
 uint8_t DS18B20_Star(void)
 {
