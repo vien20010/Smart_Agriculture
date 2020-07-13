@@ -79,7 +79,9 @@ void DS18B20_Write(uint8_t data)
 
 /**
  *
- * @param DS18B20_Read - function Read value DS18B20 Sensor
+ * @brief DS18B20_Read - function Read value DS18B20 Sensor
+ * @param - None
+ * @retval - Return value 
  *   
  **/
 
@@ -110,6 +112,13 @@ uint8_t DS18B20_Read(void)
     }
     return value;
 }
+
+/** 
+ * @brief - Get value of Warter temperature sensor 
+ * @param - None
+ * @param Presence - variable to debug check sensor is running
+ * @retval - float temp2 is value of Water temperature
+ */
 
 float GetWaterTemp(void)
 {
