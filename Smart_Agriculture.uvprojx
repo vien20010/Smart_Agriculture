@@ -520,6 +520,16 @@
               <FileType>5</FileType>
               <FilePath>.\Mylib\ADCx.h</FilePath>
             </File>
+            <File>
+              <FileName>MAX44009.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Mylib\MAX44009.c</FilePath>
+            </File>
+            <File>
+              <FileName>MAX44009.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Mylib\MAX44009.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

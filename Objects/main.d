@@ -41,3 +41,5 @@
 .\objects\main.o: .\Mylib\Timerx.h
 .\objects\main.o: .\Mylib\GPIO.h
 .\objects\main.o: .\Mylib\ADCx.h
+.\objects\main.o: .\Mylib\MAX44009.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

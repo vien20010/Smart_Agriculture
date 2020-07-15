@@ -16,6 +16,7 @@
 ".\objects\timerx.o"
 ".\objects\gpio.o"
 ".\objects\adcx.o"
+".\objects\max44009.o"
 ".\objects\startup_stm32f40_41xxx.o"
 --strict --scatter ".\Objects\Smart_Agriculture.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
