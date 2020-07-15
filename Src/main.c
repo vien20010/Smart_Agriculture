@@ -25,9 +25,9 @@ int main()
     //DMA_Config();
     //ADC_SoftwareStartConv(ADCxx);
 		Systick_Configuration();
-		I2C_Config();
+		MAX44009_Config();
 		while(1)
 		{
-			lux=GetMax44009Value();
+			lux=MAX44009_GetLightIntensity();
 		}
 }
